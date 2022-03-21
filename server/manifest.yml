@@ -1,11 +1,11 @@
   applications:
   - name: best-car
     routes:
-      - route: nop@hide.us-south.cf.appdomain.cloud
+      - route: bestcar.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: best-car-nginx
     routes:
-      - route: nop@hide.us-south.cf.appdomain.cloud/static
+      - route: bestcar.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
