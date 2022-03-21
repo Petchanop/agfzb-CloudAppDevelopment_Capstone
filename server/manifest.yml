@@ -1,11 +1,11 @@
   applications:
   - name: petchaapp
     routes:
-      - route: $HOST.us-south.cf.appdomain.cloud
+      - route: nop.hide.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: petchaapp-nginx
     routes:
-      - route: $HOST.us-south.cf.appdomain.cloud/static
+      - route: nop.hide.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
